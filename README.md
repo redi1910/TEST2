@@ -12,12 +12,13 @@ We have three environments:
 4. onboarding
 5. b2c-config
 
+# Build 
+
+gradle clean build 
 
 ## DB environment:
-POSTGRES_USER: {POSTGRES_USER}
+POSTGRES USER =postgres
+POSTGRES PASSWORD =admin
+MSC DMP B2C DATASOURCE URL=jdbc:postgresql://msc-dmp-b2c-db:5432/dmp_b2c_db
+--routing-url http://localhost:8080/graphql
 
-POSTGRES_PASSWORD: {POSTGRES_PASSWORD}
-
-POSTGRES_DB: {MSC_DMP_B2C_DB}
-
-Port :8080
