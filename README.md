@@ -6,14 +6,11 @@ We have three environments:
 3. production -dmp-b2c.msc.production
 
 # Domains connected :
-1. apollo-b2c
-2. users
-3. auth
-4. bodegas
-5. onboarding
-6. b2c-config
-7. apollo-b2b
-8. dmp-b2b
+1. users
+2. auth
+3. bodegas
+4. onboarding
+5. b2c-config
 
 
 ## DB environment:
