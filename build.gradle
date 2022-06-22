@@ -53,7 +53,7 @@ generateJava {
 
 sonarqube {
 	properties {
-		property "sonar.projectKey", "MSC-venture_msc-dmp"
+		property "sonar.projectKey", "MSC-venture_msc-b2c-config"
 		property "sonar.organization", "msc-venture"
 		property "sonar.host.url", "https://sonarcloud.io"
 	}
