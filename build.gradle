@@ -46,7 +46,7 @@ test {
 }
 
 generateJava {
-	packageName = "com.msc.dmpB2b.generated.graphql"
+	packageName = "com.msc.B2Cconfig.generated.graphql"
 	generateClient = true
 	language = "java"
 }
