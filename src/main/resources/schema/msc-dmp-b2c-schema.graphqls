@@ -1,0 +1,9 @@
+type Query {
+    graphqlSchemaExample: String!
+    users: [User]
+}
+
+type User {
+    email: String!
+    username: String!
+}
