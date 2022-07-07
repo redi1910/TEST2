@@ -1,9 +1,46 @@
-type Query {
-    graphqlSchemaExample: String!
-    users: [User]
+
+type Query  {
+
+    appConfig: AppConfig
 }
 
-type User {
-    email: String!
-    username: String!
+type  AppConfig
+
+{
+    featureFlags: FeatureFlags
+    config: Config
+    forceUpdate: ForceUpdate
 }
+
+
+type FeatureFlags {
+    showOnboarding: Boolean
+    showAppleLogin: Boolean
+    showFacebookLogin: Boolean
+    showGoogleLogin: Boolean
+    allowLanguageChange: Boolean
+}
+
+type Config {
+    defaultLanguage: String
+}
+type ForceUpdate {
+    android: android
+    ios: ios
+}
+
+type android {
+    projectName: String
+    projectPackageName: String
+    minVersion: String
+    maxVersion: String
+    updateUrl: String
+}
+type ios {
+    projectName: String
+    projectPackageName: String
+    minVersion: String
+    maxVersion: String
+    updateUrl: String
+}
+
